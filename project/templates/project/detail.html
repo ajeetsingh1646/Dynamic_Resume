@@ -35,10 +35,11 @@
             <!-- Projects -->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <div class="row">
                    
-                    <div class="card" >
-                        <img class="card-img-top" style="width: 18rem;" src="{{ project.image.url }}" alt="Card image cap">
+                    <div class="card mb-3" >
+                        <div class="text-center">
+                        <img class="card-img-top" style="width: 35rem;" src="{{ project.image.url }}" alt="Card image cap">
+                    </div>
                         <div class="card-body">
                           <h4 class="card-title">{{ project.title }}</h4>
                           <p class="card-text">{{ project.description }}</p>
@@ -47,7 +48,6 @@
                             {% endif %}
                         </div>
                       </div>
-                </div>
                 </div>
             </section>
             <hr class="m-0" />
